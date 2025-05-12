@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Web07 ejercico 3-2</h1>
+    <p>Usando el mismo script del ejer 3</p>
+    <br><br><button onclick="cambioDeColorFondo('green')">cambioDeColorFondo green</button>
+    <br><br><button onclick="cambioDeColorFondo('lightblue')">cambioDeColorFondo azul</button>
+    <br><br><button onclick="cambioDeColorFondo('#952f57')">cambioDeColorFondo Guinda</button>
+    <br><br>
+    <p id="redParagraph" onclick="changeToRedColor()">Cambiar a color rojo</p>
+    <p id="greenParagraph" onclick="changeColor(document.getElementById('greenParagraph'),'green')">Cambiar a color verde</p>
+    <p onclick="changeColor(this,'yellow')">Cambiar a color amarillo</p>
+    <p onclick="changeColor(this,'lightblue')">Cambiar a color Azul</p>
+
+    <script src="./myScript.js" defer>
+    // console.log("mensaje de script"); no se vera este msj ya que se da prioridad al sciprt externo sobre interno
+    </script>
+</body>
+</body>
+</html>
