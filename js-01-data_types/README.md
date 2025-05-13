@@ -45,4 +45,3 @@ Organiza las páginas individuales del sitio, con cada página teniendo su propi
 - **`index.html`**: Página principal de la aplicación, suele contener la estructura base y enlazar a los otros módulos y páginas.
 - **`.gitignore`**: Lista de archivos y carpetas que deben ser ignorados por Git.
 - **`README.md`**: Archivo de documentación que describe el proyecto, su propósito y cómo usarlo.
-
